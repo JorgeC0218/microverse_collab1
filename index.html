@@ -7,21 +7,16 @@
     <title>Jacob Johansen</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md">
-        <div class="container-fluid">
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle
-                    navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">ABOUT</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">WORKS</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">HIRE ME</a></li>
-                </ul>
-            </div>
-        </div>
+    <nav>
+        <ul>
+            <li class="pointer"><a class="link" href="#">ABOUT</a></li>
+            <li class="pointer"><a class="link" href="#">WORKS</a></li>
+            <li class="pointer"><a class="link" href="#">HIRE ME</a></li>
+        </ul>
     </nav>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -32,6 +27,7 @@
         <img src="assets/images/fill-1.png" alt="a signature" class="signature">
         <h1>Jacob Johansen</h1>
         <h6>Visual Designer</h6>
+    </div>
 </section>
 <section id="section-2" class="bio">
     <div class="wrapper">
@@ -42,22 +38,22 @@
         </div>
         <div class="box">
             <div class="box-content">
-                <h5>Design Work</h5>
+                <h5 class="pointer">Design Work</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iste dicta corrupti ex pariatur
                     libero.</p>
             </div>
             <div class="box-content">
-                <h5>Blog</h5>
+                <h5 class="pointer">Blog</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iste dicta corrupti ex pariatur
                     libero.</p>
             </div>
             <div class="box-content">
-                <h5>Instagram</h5>
+                <h5 class="pointer">Instagram</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iste dicta corrupti ex pariatur
                     libero.</p>
             </div>
             <div class="box-content">
-                <h5>Twitter</h5>
+                <h5 class="pointer">Twitter</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iste dicta corrupti ex pariatur
                     libero.</p>
             </div>
@@ -69,23 +65,23 @@
         <div class="sec-title1">SERVICES</div>
         <div class="img-serv">
             <div class="img-serv-content">
-                <img src="assets/images/discovery-icon.png" alt="img1">
-                <h6>Project Discovery</h6>
+                <img class="grow pointer" src="assets/images/discovery-icon.png" alt="img1">
+                <h6 class="pointer">Project Discovery</h6>
             </div>
 
             <div class="img-serv-content">
-                <img src="assets/images/ux-icon.png" alt="img2">
-                <h6>UX Design</h6>
+                <img class="grow pointer" src="assets/images/ux-icon.png" alt="img2">
+                <h6 class="pointer">UX Design</h6>
 
             </div>
             <div class="img-serv-content">
-                <img src="assets/images/ui-icon.png" alt="img3">
-                <h6>UI Design</h6>
+                <img class="grow pointer" src="assets/images/ui-icon.png" alt="img3">
+                <h6 class="pointer">UI Design</h6>
 
             </div>
             <div class="img-serv-content">
-                <img src="assets/images/prototyping-icon.png" alt="img4">
-                <h6>Prototyping</h6>
+                <img class="grow pointer" src="assets/images/prototyping-icon.png" alt="img4">
+                <h6 class="pointer">Prototyping</h6>
 
             </div>
             <div class="show">Before I start making decisions about user experience and creative decision, I do my
@@ -98,28 +94,28 @@
     <div class="wrapper">
         <div class="sec-title1">CASE STUDIES</div>
         <div class="case-wrapper1">
-            <img src="assets/images/image_2.png" alt="pineaple-img">
+            <img class="shadow-4" src="assets/images/image_2.png" alt="pineaple-img">
             <div class="description">
-                <h3>Pineapple miracle</h3>
+                <h3 class="pointer">Pineapple miracle</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente accusamus veniam mollitia saepe
                     nisi
                     eos molestias, et, neque odio fuga dignissimos, ipsam ipsa. Incidunt dolorem expedita doloremque
                     rerum
                     commodi eligendi.</p>
-                <div class="case-study">
+                <div class="case-study pointer">
                     <span>See case study</span>
                     <img src="assets/images/arrow.png" alt="an arrow"></div>
             </div>
         </div>
         <div class="case-wrapper1">
             <div class="description">
-                <h3>Classy furnitures</h3>
+                <h3 class="pointer">Classy furnitures</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente accusamus veniam mollitia saepe
                     nisi
                     eos molestias, et, neque odio fuga dignissimos, ipsam ipsa. Incidunt dolorem expedita doloremque
                     rerum
                     commodi eligendi.</p>
-                <div class="case-study">
+                <div class="case-study pointer">
                     <span>See case study</span>
                     <img src="assets/images/arrow.png" alt="an arrow"></div>
             </div>
@@ -127,7 +123,7 @@
         </div>
     </div>
     <div class="more-proj">
-        <button>
+        <button class="shadow-5 grow pointer">
             <span>MORE PROJECTS</span>
             <img src="assets/images/plus.png" alt="a plus sign">
         </button>
@@ -161,8 +157,8 @@
             <h6>I am available for hire, if you are insterested in working on a project please just get in touch with
                 me.</h6>
             <div class="btn-group">
-                <button class="btn-project">PROJECT</button>
-                <button class="btn-business">BUSINESS</button>
+                <button class="btn-project grow dim pointer">PROJECT</button>
+                <button class="btn-business grow dim pointer">BUSINESS</button>
             </div>
             <div class="contact">
                 <p>Just want to say hi ? Email-me here:</p>
@@ -179,15 +175,15 @@
         </div>
         <form action="">
             <div class="form-group">
-                <input type="email" class="form-control" placeholder="Enter you email address">
-                <button type="submit"> SIGN ME UP!</button>
+                <input type="email" class="form-control" placeholder="Enter your email address">
+                <button class="dim pointer" type="submit"> SIGN ME UP!</button>
             </div>
         </form>
         <div class="icons">
-            <img src="assets/images/dribbble.png" alt="icon-1">
-            <img src="assets/images/instagram.png" alt="icon-2">
-            <img src="assets/images/twitter.png" alt="icon-3">
-            <img src="assets/images/behance.png" alt="icon-4">
+            <img class="grow dim pointer" src="assets/images/dribbble.png" alt="icon-1">
+            <img class="grow dim pointer" src="assets/images/instagram.png" alt="icon-2">
+            <img class="grow dim pointer" src="assets/images/twitter.png" alt="icon-3">
+            <img class="grow dim pointer" src="assets/images/behance.png" alt="icon-4">
         </div>
         <div class="copyright">Johanson.co@ All rights reserved.</div>
     </div>
