@@ -496,11 +496,9 @@ ul > li{
     }    
     
     .header h6{
-        font-size: 20px;
-        opacity: 0.7;
+        font-size: 20px;       
         letter-spacing: 1px;
-        color:#fff;
-        font-family:'Playfair Display', serif;  
+        color:#fff;          
 }
     /* Section 2 */
     #section-2 > .wrapper{
@@ -813,3 +811,93 @@ ul > li{
 }
 
 /* Tablet, to be continued... */
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+
+    /* Section 1 */
+
+    #section-1 > .header{        
+        background-size:cover;
+        background-position: center;
+        max-width: 800px;
+        height:800px;
+        /* margin-top: -80px; */
+    }
+    #section-1 > img{       
+        height: 130px;
+        width: 400px;
+        top: 105%;
+        left: 21%;       
+        
+    }   
+
+    /* Section 2 */
+
+    #section-2 > .wrapper{
+        padding: 40px;
+        height: auto;    
+    }
+
+    .wrapper{
+        padding: 40px;
+    }
+
+    .box{
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 60px;
+        grid-row-gap: 80px;
+    }
+
+    /* Section-3 */
+
+    .discovery-img{
+        padding-top: 30px;        
+    }
+    .img-serv-content h6 {
+        text-align: center;
+    } 
+
+    /* Section 4 */
+
+
+.description{
+    margin-left: 70px;
+}
+
+.description h3{
+    font-size: 30px;    
+}
+
+.description p{        
+    font-size: 16px;   
+}
+
+.case-study{
+    margin-top: 20px;
+}
+
+.case-img-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.case-img-wrapper img{
+    padding-top: 30px;
+}
+
+.case-study span{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.more-proj{
+    margin-top: 10px;
+}
+
+
+
+}
